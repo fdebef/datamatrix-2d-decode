@@ -19,6 +19,7 @@ This module to work on client side in browser, you have to setup your scanner to
 ### Voyager 1450g setup
 [User manual](https://country.honeywellaidc.com/CatalogDocuments/VG1450-UG.pdf)
 Page 2-17, switch on Control Character Output - this will send also unreadable characters
+
 Page 2-3, switch to PAP124, USB Keyboard PC
 
 ### Zebra DS4308 setup
