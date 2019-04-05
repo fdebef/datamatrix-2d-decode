@@ -1,6 +1,6 @@
 # Datamatrix
 
-Module for parsing data read from 2D scanner, specially made for EMVS (European medical verification system).
+Module for parsing data read from 2D scanner, especially made for EMVS (European medical verification system).
 Input is some variant of these codes:
 
 Pure FNC1 Syntax
@@ -24,3 +24,4 @@ Page 2-3, switch to PAP124, USB Keyboard PC
 ### Zebra DS4308 setup
 Install 123Scan configuration sw and load configuration from config folder.
 
+Output is Object with productcode, serial_no, expiration and lot keys decoded from scanned code.
