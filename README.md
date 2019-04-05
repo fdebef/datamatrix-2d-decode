@@ -1,4 +1,4 @@
-# Datamatrix
+# Datamatrix 2D code decode
 
 Module for parsing data read from 2D scanner, especially made for EMVS (European medical verification system).
 Input is some variant of these codes:
