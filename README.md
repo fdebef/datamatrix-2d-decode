@@ -18,7 +18,9 @@ Currently are decoded these tags, according to EMVS needs:
 - lot 
 - serial number
 
-If you need another tags to be decoded, don't hesitate to contact me, I'll do my best.
+If you need another tags according to [GS1 specifications](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) 
+to be decoded, don't hesitate to contact me, I'll do my best.
+
 
 ## Scanner setup
 This module to work on client side in browser, you have to setup your scanner to send also unreadable characters.
