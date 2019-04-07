@@ -12,6 +12,13 @@ Mixed GS1 05 syntax and german IFA / MH10.8.2 (05[GS] = 05 syntax, 06[GS] = MH10
 ```
 [)>[RS]05[GS]0105000456013482[RS]06[GS]S0000000001[GS]1T00001[GS]D201200[RS][EOT][CR]
 ```
+Currently are decoded these tags, according to EMVS needs:
+- product number (GTIN)
+- expiration
+- lot 
+- serial number
+
+If you need another tags to be decoded, don't hesitate to contact me, I'll do my best.
 
 ## Scanner setup
 This module to work on client side in browser, you have to setup your scanner to send also unreadable characters.
@@ -25,4 +32,10 @@ Page 2-3, switch to PAP124, USB Keyboard PC
 ### Zebra DS4308 setup
 Install 123Scan configuration sw and load configuration from config folder.
 
-Output is Object with productcode, serial_no, expiration and lot keys decoded from scanned code.
+Output is Object with 
+- productcode
+- serial_no
+- expiration
+- lot 
+
+keys decoded from scanned code.
